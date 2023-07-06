@@ -7,15 +7,12 @@ export default function Projects({ projects }) {
     <Layout>
       <div className="flex flex-col items-center justify-center min-h-screen px-3 mb-10">
         <Head>
-          <title>Dylan portfolio</title>
-          <meta name="description" content="오늘도 빡코딩!" />
+          <title>Junhyeok Portfolio</title>
+          <meta name="description" content="one day one coding!" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <h1 className="text-4xl font-bold sm:text-6xl">
-          All projects :
-          <span className="pl-4 text-blue-500">{projects.results.length}</span>
-        </h1>
-        <div className="grid grid-cols-1 gap-8 p-12 m-4 md:grid-cols-2">
+        <h1 className="text-4xl font-bold sm:text-6xl">All Projects</h1>
+        <div className="grid grid-cols-1 gap-8 p-20 md:grid-cols-2">
           {projects.results.map((dylanProject) => (
             <ProjectItem key={dylanProject.id} data={dylanProject} />
           ))}
@@ -36,8 +33,8 @@ export async function getServerSideProps() {
     body: JSON.stringify({
       sorts: [
         {
-          property: "이름",
-          direction: "ascending",
+          property: "WorkPeriod",
+          direction: "descending",
         },
       ],
       page_size: 100,

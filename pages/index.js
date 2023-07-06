@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Dylan portfolio</title>
+        <title>Junhyeok portfolio</title>
         <meta name="description" content="One day One coding!!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
