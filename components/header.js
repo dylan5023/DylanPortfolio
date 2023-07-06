@@ -34,7 +34,7 @@ export default function Header() {
 
             <a
               href="mailto:kangjun5023@gmail.com"
-              class="mr-5 hover:text-gray-900"
+              className="mr-5 hover:text-gray-900"
             >
               Contact
             </a>
