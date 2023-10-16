@@ -11,17 +11,10 @@ export default function Hero() {
           One day One coding!
         </h1>
         <p className="mb-8 leading-relaxed">
-          Hello! I am Junhyeok Kang, a skilled web developer specializing in
-          responsive websites for delivery and tutoring services. I excel in
-          optimizing performance for mobile and tablet versions. With expertise
-          in Node.js and SPAs, I have developed a full-stack anonymous
-          information-sharing website called D-lip. I implemented secure login
-          using crypto and JWT, following the MVC pattern. Using mongodb, I
-          tailored schema structures to meet the data of website requirements.
-          Additionally, I have contributed to a group project, creating a
-          reservation feature for a library website. Using PHP and MySQL, I
-          built the necessary database and designed efficient data structures
-          for seamless reservation management.
+          Hello, I am Junhyeok Kang, a student who dreams of becoming a data
+          engineer. My goal is to be like a digital alchemist, I aim to
+          transform data into insight by turning complex information into the
+          gold of solutions for real-world challenges.
         </p>
         <div className="flex justify-center">
           <Link href="/projects">
